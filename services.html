@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Apexcify Technologys</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo-wrapper">
+                <img src="Images/logo.jpg" alt="Apexcify Technologys Logo" class="logo-img">
+                <span class="logo-text">Apexcify Technologys</span>
+            </a>
+            <nav class="navbar">
+                <ul id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="vision.html">Vision</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="internships.html">Internships</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class='bx bx-menu' style="color: white; font-size: 2rem; cursor: pointer;"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="services" style="margin-top: var(--header-height);">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="ai">AI & ML</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+                <div class="services-grid" id="services-container">
+                    <div class="service-card" data-category="web">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>IT Services & Consulting</h3>
+                        <p>Providing expert IT services and consulting to help businesses achieve their technology goals
+                            efficiently.</p>
+                    </div>
+                    <div class="service-card" data-category="web">
+                        <i class='bx bx-terminal'></i>
+                        <h3>Backend Development</h3>
+                        <p>Specializing in building robust and scalable server-side architectures and APIs.</p>
+                    </div>
+                    <div class="service-card" data-category="ai">
+                        <i class='bx bx-brain'></i>
+                        <h3>Artificial Intelligence</h3>
+                        <p>Leveraging cutting-edge AI and machine learning to drive innovation and solve complex
+                            problems.</p>
+                    </div>
+                    <div class="service-card" data-category="ai">
+                        <i class='bx bx-stats'></i>
+                        <h3>Data Science</h3>
+                        <p>Extracting meaningful insights from data to guide strategic decision-making and growth.</p>
+                    </div>
+                    <div class="service-card" data-category="design">
+                        <i class='bx bx-palette'></i>
+                        <h3>Graphic Designing</h3>
+                        <p>Creating visually stunning designs that communicate your brand's message effectively.</p>
+                    </div>
+                    <div class="service-card" data-category="design">
+                        <i class='bx bx-mobile-alt'></i>
+                        <h3>App Development</h3>
+                        <p>Crafting high-performance mobile applications for both iOS and Android platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <p>&copy; 2024 Apexcify Technologys - All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

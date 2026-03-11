@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apexcify Technologys - Empowering Your Career Journey</title>
+    <meta name="description"
+        content="Apexcify Technologys offers internships and job opportunities in AI, Data Science, Web Dev, and more.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo-wrapper">
+                <img src="Images/logo.jpg" alt="Apexcify Technologys Logo" class="logo-img">
+                <span class="logo-text">Apexcify Technologys</span>
+            </a>
+            <nav class="navbar">
+                <ul id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="vision.html">Vision</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="internships.html">Internships</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class='bx bx-menu' style="color: white; font-size: 2rem; cursor: pointer;"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section with Slider -->
+        <section id="home" class="hero">
+            <div class="hero-slider">
+                <div class="slide active" style="background-image: url('Images/preview.jpg');">
+                    <div class="container">
+                        <div class="hero-content animate-fade-in">
+                            <h1>Welcome to <br><span>Apexcify Technologys</span></h1>
+                            <p>An Information Services Company that helps people polish their skills and get experience
+                                in their Fields.</p>
+                            <a href="services.html" class="btn-primary">Explore Services</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional slides with different branding imagery -->
+                <div class="slide" style="background-image: url('Images/preview.jpg'); filter: hue-rotate(45deg);">
+                    <div class="container">
+                        <div class="hero-content animate-fade-in">
+                            <h1>Empowering <br><span>Tech Talent</span></h1>
+                            <p>Connecting students and professionals with top-tier internships and career opportunities.
+                            </p>
+                            <a href="internships.html" class="btn-primary">Join Program</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn prev"><i class='bx bx-chevron-left'></i></button>
+                <button class="slider-btn next"><i class='bx bx-chevron-right'></i></button>
+            </div>
+        </section>
+
+        <!-- Vision & Mission -->
+        <section id="vision" class="vision">
+            <div class="container">
+                <div class="vision-grid">
+                    <div class="vision-card">
+                        <h2>Our Vision</h2>
+                        <p>To become a leading provider of internships and job opportunities in the tech industry,
+                            nurturing talented individuals.</p>
+                    </div>
+                    <div class="vision-card">
+                        <h2>Our Mission</h2>
+                        <p>To provide high-quality internships and job opportunities that equip individuals with the
+                            skills and experience needed to succeed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services with Filters -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="ai">AI & ML</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+                <div class="services-grid" id="services-container">
+                    <div class="service-card" data-category="web">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>IT Services & Consulting</h3>
+                        <p>Providing expert IT services and consulting to help businesses achieve their technology goals
+                            efficiently.</p>
+                    </div>
+                    <div class="service-card" data-category="web">
+                        <i class='bx bx-terminal'></i>
+                        <h3>Backend Development</h3>
+                        <p>Specializing in building robust and scalable server-side architectures and APIs.</p>
+                    </div>
+                    <div class="service-card" data-category="ai">
+                        <i class='bx bx-brain'></i>
+                        <h3>Artificial Intelligence</h3>
+                        <p>Leveraging cutting-edge AI and machine learning to drive innovation and solve complex
+                            problems.</p>
+                    </div>
+                    <div class="service-card" data-category="ai">
+                        <i class='bx bx-stats'></i>
+                        <h3>Data Science</h3>
+                        <p>Extracting meaningful insights from data to guide strategic decision-making and growth.</p>
+                    </div>
+                    <div class="service-card" data-category="design">
+                        <i class='bx bx-palette'></i>
+                        <h3>Graphic Designing</h3>
+                        <p>Creating visually stunning designs that communicate your brand's message effectively.</p>
+                    </div>
+                    <div class="service-card" data-category="design">
+                        <i class='bx bx-mobile-alt'></i>
+                        <h3>App Development</h3>
+                        <p>Crafting high-performance mobile applications for both iOS and Android platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internships Section -->
+        <section id="internships" class="internships">
+            <div class="container">
+                <h2 class="section-title">Internship Program</h2>
+                <p
+                    style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    Our internship program is designed to provide individuals with hands-on experience in a variety of
+                    areas, including software development, data science, and marketing.</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class='bx bx-chevron-right-circle'></i>
+                        <h3>Software Engineering</h3>
+                        <p>Join our team to work on real-world projects using modern tech stacks.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class='bx bx-data'></i>
+                        <h3>Data Analysis</h3>
+                        <p>Analyze complex datasets to discover trends and patterns.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class='bx bx-broadcast'></i>
+                        <h3>Digital Marketing</h3>
+                        <p>Learn the latest trends in SEO, social media, and content strategy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <p>&copy; 2024 Apexcify Technologys - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
